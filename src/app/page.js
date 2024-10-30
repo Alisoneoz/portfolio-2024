@@ -5,6 +5,7 @@ import AnimatedSection from "@/components/Animations/AnimatedSection";
 import { Github, Linkedin, Twitter, Instagram, Mail } from "lucide-react";
 import ProjectsSection from "@/components/ProjectsSection";
 import TechStack from "@/components/TechStack";
+import SectionTracker from "@/components/SectionTracker";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
         </section>
 
         {/* About Section  */}
+        <SectionTracker sectionName="about">
         <AnimatedSection className="bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-violet-600 via-black to-black flex flex-col w-full ">
           <div id="about" className="flex flex-col md:flex-row scroll-mt-48 pt-16 sm:pt-5">
             <div className="w-full pt-8 pb-16 items-center md:h-fit  md:w-1/3  md:mr-8 xl:mr-20 flex relative">
@@ -91,21 +93,22 @@ export default function Home() {
             </div>
           </div>
         </AnimatedSection>
+        </SectionTracker>
 
         {/* Project Section */}
-        {/* <section>
-        <ProjectsSection />
-        </section> */}
+        <SectionTracker sectionName="projects">
         <AnimatedSection className="bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-violet-800 via-black to-black py-16">
-          {" "}
-          {/* Añadido py-16 */}
+ 
           <h2 className="text-3xl font-bold text-center mb-8">Projects</h2>
           <ProjectsSection />
         </AnimatedSection>
+        </SectionTracker>
 
+        <SectionTracker sectionName="tech-stack">
         <AnimatedSection className="bg-black bg-[radial-gradient(at_48.16%_51.30%,rgb(76,29,149)_0,transparent_0%),radial-gradient(at_48.72%_50.67%,rgb(76,29,149)_0,transparent_75%)]">
           <TechStack />
         </AnimatedSection>
+        </SectionTracker>
       </main>
     </div>
   );

@@ -1,5 +1,6 @@
 'use client';
 import { projects } from '@/config/projects';
+import { trackProjectClick } from '@/lib/gtag';
 import {
   Card,
   CardContent,
@@ -28,7 +29,7 @@ const ProjectsSection = () => {
             <CardTitle className="text-lg sm:text-xl mb-2">{project.title}</CardTitle>
             <CardDescription className="text-sm">{project.description}</CardDescription>
           </CardHeader>
-          <CardContent className="p-4"> {/* Ajustado padding */}
+          <CardContent className="p-4">
             <div className="flex flex-wrap gap-2">
               {project.technologies.map((tech) => (
                 <span
@@ -48,6 +49,7 @@ const ProjectsSection = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-primary transition-colors"
+                  onClick={() => trackProjectClick(project.title, 'github')}
                 >
                   <Github className="w-5 h-5 sm:w-6 sm:h-6" />
                 </a>
@@ -58,6 +60,7 @@ const ProjectsSection = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-primary transition-colors"
+                  onClick={() => trackProjectClick(project.title, 'live')}
                 >
                   <ExternalLink className="w-5 h-5 sm:w-6 sm:h-6" />
                 </a>

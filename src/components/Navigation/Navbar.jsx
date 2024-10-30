@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import Image from 'next/image';
+import { trackNavigation } from '@/lib/gtag';
 import { motion } from 'framer-motion';
 import { Menu, X } from 'lucide-react'; // Importar iconos para el menú
 import { useState } from 'react';
@@ -44,7 +45,8 @@ const Navbar = () => {
                   key={item.name}
                   href={item.href}
                   className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors"
-                >
+                  onClick={() => trackNavigation(item.name)}
+               >
                   {item.name}
                 </Link>
               ))}
