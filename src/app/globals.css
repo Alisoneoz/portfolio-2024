@@ -80,6 +80,7 @@ main {
   body {
     @apply bg-background text-foreground;
   }
+
   h4{
     @apply lg:text-3xl text-xl font-semibold
   }

@@ -20,8 +20,8 @@ export default function Home() {
             quantity={100}
           />
           <AnimatedTitle>
-            <h1 className=" animate-title text-edge-outline text-center py-3.5 px-0.5 z-10 text-xl text-transparent duration-1000 bg-white cursor-default font-display sm:text-4xl md:text-6xl whitespace-nowrap bg-clip-text">
-              Alison Estephany | Web Developer
+            <h1 className=" animate-title text-edge-outline text-center py-3.5 px-0.5 z-10 text-transparent duration-1000 bg-white cursor-default font-display  w-full  text-3xl md:text-5xl lg:text-6xl md:whitespace-nowrap bg-clip-text">
+              Alison Estephany <div className="md:hidden mb-2"></div> <span className="hidden md:inline">| </span>Web Developer
             </h1>
             <p className="text-center pt-6 text-lg">
               Building Modern Digital Experiences
@@ -31,7 +31,7 @@ export default function Home() {
 
         {/* About Section  */}
         <AnimatedSection className="bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-violet-600 via-black to-black flex flex-col w-full ">
-          <div id="about" className="flex flex-col md:flex-row scroll-mt-48">
+          <div id="about" className="flex flex-col md:flex-row scroll-mt-48 pt-16 sm:pt-5">
             <div className="w-full pt-8 pb-16 items-center md:h-fit  md:w-1/3  md:mr-8 xl:mr-20 flex relative">
               <div className="rounded-xl absolute bg-violet-900 border-2 border-violet-600 h-full w-full py-30 md:-ml-4  xl:-ml-10 md:mt-8 lg:mt-4 z-1 flex items-end justify-center md:justify-start">
                 <div className="flex items-center">
