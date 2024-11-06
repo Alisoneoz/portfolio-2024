@@ -71,10 +71,7 @@ export const technologies = {
       icon: "/tech-icons/wordpress-color.svg",
       features: ["Elementor", "Spectra"]
     },
-    {
-      name: "Webflow",
-      icon: "/tech-icons/webflow-color.svg",
-    },
+
     {
       name: "Wix",
       icon: "/tech-icons/wix-color.svg",
@@ -83,6 +80,14 @@ export const technologies = {
       name: "Squarespace",
       icon: "/tech-icons/squarespace-color.svg",
     },
+    {
+      name: "Framer",
+      icon: "/tech-icons/framer.svg",
+    },
+    {
+      name: "Webflow",
+      icon: "/tech-icons/webflow-color.svg",
+    }
   ],
   tools: [
     {

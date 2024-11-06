@@ -10,17 +10,17 @@ export const projects = [
         featured: true,
         category: "WordPress"
        },  
-      //{
-      //   id: 2,
-      //   title: "Latina Media",
-      //   description: "This project is a website created for an online marketing and social media agency. It's designed with user-friendly navigation, featuring integrated options for booking brand consulting sessions via WooCommerce and scheduling appointments through Calendly. The responsive layout, vibrant imagery, and clear calls-to-action ensure an engaging experience while effectively highlighting social media marketing services.",
-      //   longDescription: "More detailed description of the project",
-      //   technologies: ["WordPress", "Elementor", "WooCommerce", "Calendly", "CSS3"],
-      //   image: "/Screenshot-2024-10-29T142058.638.webp",
-      //   live: "https://latinamedia.nl/",
-      //   featured: false,
-      //   category: "WordPress"
-      // },
+      {
+         id: 2,
+         title: "Latina Media",
+         description: "This project is a website created for an online marketing and social media agency. It's designed with user-friendly navigation, featuring integrated options for booking brand consulting sessions via WooCommerce and scheduling appointments through Calendly. The responsive layout, vibrant imagery, and clear calls-to-action ensure an engaging experience while effectively highlighting social media marketing services.",
+         longDescription: "More detailed description of the project",
+         technologies: ["WordPress", "Elementor", "WooCommerce", "Calendly", "CSS3"],
+         image: "/Screenshot-2024-10-29T142058.638.webp",
+         live: "https://latinamedia.nl/",
+         featured: false,
+         category: "WordPress"
+       },
   {
     id: 3,
     title: "Remy’s Consulting",
