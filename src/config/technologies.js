@@ -83,10 +83,6 @@ export const technologies = {
     {
       name: "Framer",
       icon: "/tech-icons/framer.svg",
-    },
-    {
-      name: "Webflow",
-      icon: "/tech-icons/webflow-color.svg",
     }
   ],
   tools: [
