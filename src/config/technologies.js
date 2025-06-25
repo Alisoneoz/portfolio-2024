@@ -5,6 +5,16 @@ export const technologies = {
       icon: "/tech-icons/javascript-color.svg",
       category: "core"
     },
+    {
+      name: "Python",
+      icon: "/tech-icons/python.svg",
+      category: "core"
+    },
+    {
+      name: "Python",
+      icon: "/tech-icons/python.svg",
+      category: "core"
+    },
   ],
   frontend: [
     {
@@ -45,14 +55,24 @@ export const technologies = {
   ],
   backend: [
     {
-      name: "MongoDB",
-      icon: "/tech-icons/mongodb-color.svg",
+      name: "Flask",
+      icon: "/tech-icons/express-color.svg",
       
     },
     {
       name: "Express.js",
       icon: "/tech-icons/express-color.svg",
-    
+      
+    },
+    {
+      name: "SQL",
+      icon: "/tech-icons/SQL.svg",
+      
+    },
+    {
+      name: "MongoDB",
+      icon: "/tech-icons/mongodb-color.svg",
+      
     },
     {
         name: "Mongoose",
