@@ -33,7 +33,7 @@ const Footer = () => {
           
           {/* Copyright */}
           <div className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} Alison Estephany. All rights reserved.
+            © 2025 Alison Estephany. All rights reserved.
           </div>
         </div>
       </div>
