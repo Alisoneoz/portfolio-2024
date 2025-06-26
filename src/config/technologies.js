@@ -60,16 +60,17 @@ export const technologies = {
       icon: "/tech-icons/flask.svg",
     },
     {
-      name: "SQL Alchemy",
-      icon: "/tech-icons/sql-alchemy.svg",
-    },
-    {
       name: "Express.js",
       icon: "/tech-icons/express-color.svg",
     },
     {
       name: "SQL",
       icon: "/tech-icons/SQL.svg",
+      
+    },
+    {
+      name: "SQL Alchemy",
+      icon: "/tech-icons/slq-alchemy.svg",
     },
     {
       name: "MongoDB",
