@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 1,
-    title: "DEMaaaaaaaaaO: E-commerce Clothing Store",
+    title: "DEMO: E-commerce Clothing Store",
     description:
       "A fully functional demo e-commerce website featuring user authentication powered by Firebase and integrates Stripe Checkout for a seamless payment experience. The homepage showcases a diverse range of products, with clear descriptions and pricing. Users can easily add items to their cart, offering a streamlined shopping experience. ",
     longDescription: "More detailed description of the project",
@@ -68,7 +68,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Latina Mediffffffffa",
+    title: "Latina Media",
     description:
       "This project is a website created for an online marketing and social media agency. It's designed with user-friendly navigation, featuring integrated options for booking brand consulting sessions via WooCommerce and scheduling appointments through Calendly. The responsive layout, vibrant imagery, and clear calls-to-action ensure an engaging experience while effectively highlighting social media marketing services.",
     longDescription: "More detailed description of the project",
