@@ -1,5 +1,5 @@
 export const technologies = {
-  core: [
+  "Programming Languages": [
     {
       name: "JavaScript",
       icon: "/tech-icons/javascript-color.svg",
@@ -16,7 +16,7 @@ export const technologies = {
       category: "core",
     },
   ],
-  frontend: [
+  Frontend: [
     {
       name: "React",
       icon: "/tech-icons/react-color.svg",
@@ -24,6 +24,10 @@ export const technologies = {
     {
       name: "Next.js",
       icon: "/tech-icons/nextdotjs-color.svg",
+    },
+    {
+      name: "ViteJS",
+      icon: "/tech-icons/vite.svg",
     },
     {
       name: "Astro",
@@ -49,12 +53,25 @@ export const technologies = {
       name: "Shadcn/UI",
       icon: "/tech-icons/shadcnui-color.svg",
     },
+    {
+      name: "HTML5",
+      icon: "/tech-icons/html.svg",
+    },
+    {
+      name: "CSS3",
+      icon: "/tech-icons/css.svg",
+    },
   ],
-  testing:[{
+  "Additional Tools & Technologies":[{
     name:"Jest",
     icon:"/tech-icons/jest.svg"
-  }],
-  backend: [
+  },
+  {
+    name:"Git",
+    icon:"/tech-icons/git.svg"
+  }
+],
+  Backend: [
     {
       name: "Flask",
       icon: "/tech-icons/flask.svg",
