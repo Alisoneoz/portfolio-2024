@@ -9,12 +9,12 @@ import SectionTracker from "@/components/SectionTracker";
 
 export default function Home() {
   return (
-    <div className="overflow-x-hidden ">
+    <div className=" ">
       <main className="flex flex-col items-center sm:items-start w-full my-auto">
         {/* Hero Section */}
         <section
           id="home"
-          className="relative w-screen h-screen justify-center flex flex-col"
+          className="relative w-screen min-h-[80vh] md:h-screen justify-center flex flex-col"
         >
           <ParticlesBackground
             className="absolute inset-0 -z-10 w-full h-full -mt-4"
