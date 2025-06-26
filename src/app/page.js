@@ -99,10 +99,10 @@ export default function Home() {
 
         {/* Project Section */}
         <SectionTracker sectionName="projects">
-          <AnimatedSection className="bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-violet-800 via-black to-black py-16">
+         
             <h2 className="text-3xl font-bold text-center mb-8">Projects</h2>
             <ProjectsSection />
-          </AnimatedSection>
+          
         </SectionTracker>
 
         <SectionTracker sectionName="tech-stack">
