@@ -23,10 +23,10 @@ export default function Home() {
           <AnimatedTitle>
             <h1 className=" animate-title text-edge-outline text-center py-3.5 px-0.5 z-10 text-transparent duration-1000 bg-white cursor-default font-display  w-full  text-3xl md:text-5xl lg:text-6xl md:whitespace-nowrap bg-clip-text">
               Alison Estephany <div className="md:hidden mb-2"></div>{" "}
-              <span className="hidden md:inline">| </span>Web Developer
+              <span className="hidden md:inline">| </span>Full Stack Developer
             </h1>
             <p className="text-center pt-6 text-lg">
-              Building Modern Digital Experiences
+            Code That Connects: Functional, Thoughtful, Human
             </p>
           </AnimatedTitle>
         </section>
@@ -77,23 +77,20 @@ export default function Home() {
               </div>
               <div className="w-full md:w-2/3 items-center flex flex-col my-auto">
                 <h4>
-                  Alison Estephany is a dedicated Fullstack Developer and
-                  Dietitian with a background in Nutrition and a passion for
-                  software development
+                Alison Estephany is a passionate Fullstack Developer with a background in Nutrition
+                and a unique ability to blend creativity, logic, and empathy into everything she builds.
                 </h4>
                 <br />
                 <p>
                   {" "}
-                  She specializes in the MERN stack (MongoDB, ExpressJS,
-                  ReactJS, NodeJS) and is skilled in ReactJS, TailwindCSS, and
-                  more.
+                  Trained in modern web technologies like React, Flask, and MySQL, 
+                  she’s developed fullstack applications that bring ideas to life through clean code and thoughtful user experiences. 
                 </p>
                 <br />
                 <p>
-                  Alison has experience with WordPress, Squarespace, and Wix,
-                  and has worked as a Virtual Assistant and content creator. She
-                  is a fast learner with strong multitasking skills, fluent in
-                  English, and always eager to explore new technologies.
+                With hands-on experience in tools like Git, REST APIs, and test-driven development, 
+                Alison thrives in fast-paced, collaborative environments. She’s also worked with platforms like WordPress and Wix, 
+                and her journey reflects curiosity, adaptability, and a drive to create meaningful digital solutions.
                 </p>
               </div>
             </div>

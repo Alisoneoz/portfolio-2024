@@ -1,5 +1,54 @@
 export const projects = [
   {
+    id: 10,
+    title: "Petscue",
+    description:
+      "Petscue is a full-stack web application, my bootcamp's final project, aimed at facilitating responsible animal adoption. It securely connects rescuers, former owners, and potential adopters. The app enables rescuers to publish animal details and manage requests, allows former owners to find new homes, and lets adopters create profiles, browse available animals, favorite them, and communicate with caregivers. This comprehensive platform streamlines the adoption process with a robust backend and intuitive frontend ",
+    longDescription: "More detailed description of the project",
+    technologies: [
+      "ReactJS",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "Bootstrap 5",
+      "Python 3",
+      "Flask",
+      "SQL",
+      "SQLAlchemy",
+      "Cloudinary",
+      "Flask Mail"
+    ],
+    image: "/petscue-portfolio.png",
+    github: "https://github.com/Alisoneoz/latam-pt-46-Petscue",
+    live: "https://sample-service-name-8c9f.onrender.com",
+    featured: true,
+    category: "fullstack",
+  },
+  {
+    id: 11,
+    title: "Playing with ThreeJS",
+    description:
+      "This project brings 3D interactivity to the web using Three.js and React-Three/Drei, all within a Next.js and Tailwind CSS setup. It features real-time manipulation of Blender-created models, dynamic animations, and smooth scene controls. Along the way, I also explored how AI tools like PearAI can support the development process, especially when tackling complex integration challenges across technologies.",
+    longDescription: "More detailed description of the project",
+    technologies:[
+      "React.js",
+      "Next.js",
+      "Three.js",
+      "@react-three/fiber",
+      "@react-three/drei",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Blender",
+      "Leva", 
+      "PearAI (AI-powered Code Editor)" 
+    ],
+    image: "/threejs-portfolio.png",
+    github: "https://github.com/Alisoneoz/3D-Landing-Page",
+    live: "https://practicing-threejs.netlify.app",
+    featured: true,
+    category: "fullstack",
+  },
+  {
     id: 1,
     title: "DEMO: E-commerce Clothing Store",
     description:
