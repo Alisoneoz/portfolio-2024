@@ -1,5 +1,10 @@
 export const technologies = {
   "Programming Languages": [
+      {
+      name: "TypeScript",
+      icon: "/tech-icons/typescript.svg",
+      category: "core",
+    },
     {
       name: "JavaScript",
       icon: "/tech-icons/javascript-color.svg",
@@ -52,6 +57,10 @@ export const technologies = {
     {
       name: "Shadcn/UI",
       icon: "/tech-icons/shadcnui-color.svg",
+    },
+       {
+      name: "ThreeJS",
+      icon: "/tech-icons/threejs.svg",
     },
     {
       name: "HTML5",
